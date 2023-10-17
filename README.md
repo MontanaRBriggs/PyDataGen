@@ -19,7 +19,7 @@ data_generator = DataGenerator()
 Generate a data set, print it to the console (optional), and save it.
 
 ```py
-# Generate 10 points of random data for (X) (1-5) with (Y) values (1-10).
+# Generate 10 points of random data where X can be (1-5) and Y (1-10).
 
 data_generator.generate_data(x_min=1, x_max=5, y_min=1, y_max=10, data_points=10)
 
